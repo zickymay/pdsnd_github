@@ -5,7 +5,7 @@
 
 
 import time
-import calendar
+import calendar as cdr
 import pandas as pd
 import numpy as np
 
@@ -89,12 +89,12 @@ def time_stats(df):
 
     # display the most common month
     if df['Month'].nunique() > 1:
-        popular_month = calendar.month_name[df['Month'].mode()[0]]
+        popular_month = cdr.month_name[df['Month'].mode()[0]]
         print('The most popular month: {}'.format(popular_month))
 
     # display the most common day of week
     if df['Day'].nunique() > 1:
-        popular_day = calendar.day_name[df['Day'].mode()[0]]
+        popular_day = cdr.day_name[df['Day'].mode()[0]]
         print('The most popular day: {}'.format(popular_day))
 
     # display the most common start hour
