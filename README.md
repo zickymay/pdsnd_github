@@ -9,6 +9,13 @@ chicago.csv
 new_york_city.csv  
 washington.csv
 
+### Setup Instructions
+For this project, you should have
+* Python 3, Nympy, and pandas installed using Anaconda  
+* A text editor, like Sublime or Atom
+* A terminal application
+
+
 ### Credits
 Python Calendar:
 https://docs.python.org/2/library/calendar.html
