@@ -1,15 +1,18 @@
-### Date created
-Include the date you created this project and README file.
+#### March 4th, 2019
 
-### Project Title
-Replace the Project Title
+### Explore US Bikeshare Data
 
-### Description
-Describe what your project is about and what it does
+This project involves using Python to understand the U.S. bikeshare data. The project allows users to calculate statistics and build an interactive environment where one can choose to filter resulting data based on city, month and day of the week
 
-### Files used
-Include the files used
+### Source data
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Python Calendar:
+https://docs.python.org/2/library/calendar.html
 
+Commands to display 5 rows of data after prompting:
+
+https://study-hall.udacity.com/rooms/community:nd104:645596-project-328/community:thread-12000928570-550101?contextType=room
